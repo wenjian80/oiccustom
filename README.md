@@ -46,13 +46,12 @@ I am using https://sslforweb.com/ to create a free cert for my domain bjoic.limb
 
 Follow the steps there to register the txt record etc.
 
+![enter image description here](https://github.com/wenjian80/oiccustom/blob/main/dnstxtrecord.JPG)
 
 After which download the necessary cert which we going to use later.
 
 ![enter image description here](https://github.com/wenjian80/oiccustom/blob/main/customssl.JPG)
 
-
-![enter image description here](https://github.com/wenjian80/oiccustom/blob/main/dnstxtrecord.JPG)
 
 
 # Download oic certificates.
@@ -95,6 +94,8 @@ Create a backend set, and you need to tick using ssl.
 Configure the backend to the oic, make sure it is healthy
 
 ![enter image description here](https://github.com/wenjian80/oiccustom/blob/main/check1.JPG)
+
+Set up the health check using tcp 
 
 ![enter image description here](https://github.com/wenjian80/oiccustom/blob/main/check2.JPG)
 
