@@ -59,6 +59,8 @@ After which download the necessary cert which we going to use later.
 
 Access and login to the oic console  and download the certs using firefox, we will be using it later.
 
+Download the Pem(cert) and Pem (chain)
+
 ![enter image description here](https://github.com/wenjian80/oiccustom/blob/main/downloadcer1.JPG)
 
 ![enter image description here](https://github.com/wenjian80/oiccustom/blob/main/downloadcer2.JPG)
@@ -82,7 +84,7 @@ We need to set up 2 custom ssl.
 
 In customssl, that is the ssl for bjoic.limboonjian.com, you will upload the cert, ca, and private key in eariler steps
 
-In oicbackend, that is the ssl for the back oic url, you will upload the cert and ca in eariler steps
+In oicbackend, that is the ssl for the back oic url, you will upload the cert(pem cert) and ca(pem chain) in eariler steps
 
 ![enter image description here](https://github.com/wenjian80/oiccustom/blob/main/addssl.JPG)
 
