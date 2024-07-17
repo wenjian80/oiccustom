@@ -15,7 +15,7 @@ https://bjoic.limboonjian.com/ic/api/integration/v1/flows/rest/TEST/1.0/test?id=
 
 **You will not be able to access these url as i have block everything when the steps are working.**
 
-#Find the ip of OIC
+# Find the ip of OIC
 
 do a nslook and find the ip of oic, we are going to route the load balancer to the backend ip
 ```
