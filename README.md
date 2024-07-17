@@ -15,6 +15,25 @@ https://bjoic.limboonjian.com/ic/api/integration/v1/flows/rest/TEST/1.0/test?id=
 
 **You will not be able to access these url as i have block everything when the steps are working.**
 
+#Find the ip of OIC
+
+do a nslook and find the ip of oic, we are going to route the load balancer to the backend ip
+```
+nslookup oiccustom-apacaseanset01-px.integration.us-phoenix-1.ocp.oraclecloud.com
+```
+
+Sample response that it return 146.235.5.11 as the ip. Jot down this ip
+
+```
+nslookup oiccustom-apacaseanset01-px.integration.us-phoenix-1.ocp.oraclecloud.com
+Server:  RT-AX82U-9C98
+Address:  192.168.50.1
+
+Non-authoritative answer:
+Name:    dynamic-http-prod-dp-DPG32-cell-6.integration.us-phoenix-1.ocp.oraclecloud.com
+Address:  146.235.5.11
+Aliases:  oiccustom-apacaseanset01-px.integration.us-phoenix-1.ocp.oraclecloud.com
+```
 # Create domain
 
 The tutorial will assume you already have a domain name. In here my domain name is limboonjian.com and is already registered in oci dns zone.
