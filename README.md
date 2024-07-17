@@ -38,7 +38,11 @@ Aliases:  oiccustom-apacaseanset01-px.integration.us-phoenix-1.ocp.oraclecloud.c
 
 The tutorial will assume you already have a domain name. In here my domain name is limboonjian.com and is already registered in oci dns zone.
 
-HOw to managed dns is not cover in this instructions.
+Domain name is bought using external registrar and the zone management is managed by oci dns in this tutorial.
+
+Alternatively your provider can do the management of the dns/zone rather than oci dns, but the concept is the same.
+
+HOw to managed oci dns zone etc is not cover in this instructions.
 
 # Create a cert
 
