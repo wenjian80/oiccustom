@@ -32,6 +32,10 @@ After which download the necessary cert which we going to use later.
 
 ![enter image description here](https://github.com/wenjian80/oiccustom/blob/main/customssl.JPG)
 
+
+![enter image description here](https://github.com/wenjian80/oiccustom/blob/main/dnstxtrecord.JPG)
+
+
 # Download oic certificates.
 
 Access and login to the oic console  and download the certs using firefox, we will be using it later.
